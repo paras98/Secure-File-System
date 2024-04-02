@@ -1,0 +1,64 @@
+{
+    "commands": [
+        {
+            "program": "stor",
+            "args": [
+                "-u",
+                "username",
+                "-k",
+                "secretkey",
+                "register",
+                "register"
+            ]
+        },
+        {
+            "program": "stor",
+            "args": [
+                "-u",
+                "username",
+                "-f",
+                "file1",
+                "create"
+
+            ]
+        },
+	{
+            "program": "stor",
+            "args": [
+                "-u",
+                "username",
+                "-f",
+                "file2",
+                "create"
+
+            ]
+        },
+        {
+            "program": "stor",
+            "args": [
+                "-u",
+                "username",
+                "-f",
+                "file1",
+		"file2",
+                "-k",
+                "secretkey",
+                "write",
+                "hello world"
+            ]
+        },
+
+        {
+            "program": "stor",
+            "args": [
+                "-u",
+                "username",
+                "-f",
+                "file1",
+                "-k",
+                "secretkey",
+                "read"
+            ]
+        }
+    ]
+}
